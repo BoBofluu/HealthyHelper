@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084D7EB4E0BEF7D302DE5152 /* Pods_CherryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBB1CF0C4429AA7D48F2376 /* Pods_CherryTests.framework */; };
+		4238175DFF010FEC5CC38AC2 /* Pods_Cherry_CherryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3965B6F169C1E6709729737 /* Pods_Cherry_CherryUITests.framework */; };
+		50B3247928E97B6C00F91AC8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3247828E97B6C00F91AC8 /* TabBarViewController.swift */; };
+		50B3247D28E9830400F91AC8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B3247F28E9830400F91AC8 /* Localizable.strings */; };
+		50B3249828E984B800F91AC8 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3249728E984B800F91AC8 /* UILabelExtension.swift */; };
+		50B3249B28E985E300F91AC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B3249D28E985E300F91AC8 /* InfoPlist.strings */; };
+		50B324A528E9878600F91AC8 /* ListVC_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324A328E9878600F91AC8 /* ListVC_Home.swift */; };
+		50B324A628E9878600F91AC8 /* ListVC_Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B324A428E9878600F91AC8 /* ListVC_Home.xib */; };
+		50B324A928E987B100F91AC8 /* HomeVC_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324A728E987B100F91AC8 /* HomeVC_Home.swift */; };
+		50B324AA28E987B100F91AC8 /* HomeVC_Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B324A828E987B100F91AC8 /* HomeVC_Home.xib */; };
+		50B324AD28E987D200F91AC8 /* MoneyVC_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324AB28E987D200F91AC8 /* MoneyVC_Home.swift */; };
+		50B324AE28E987D200F91AC8 /* MoneyVC_Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B324AC28E987D200F91AC8 /* MoneyVC_Home.xib */; };
+		50B324B028E987F400F91AC8 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324AF28E987F400F91AC8 /* BaseVC.swift */; };
+		50B324B328E9881000F91AC8 /* SettingVC_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324B128E9881000F91AC8 /* SettingVC_Home.swift */; };
+		50B324B428E9881000F91AC8 /* SettingVC_Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B324B228E9881000F91AC8 /* SettingVC_Home.xib */; };
+		50B324B628E98F4100F91AC8 /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324B528E98F4100F91AC8 /* UINavigationExtension.swift */; };
+		50B324BA28E993F800F91AC8 /* CherryDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324B928E993F800F91AC8 /* CherryDefine.swift */; };
+		50B324BC28E9943A00F91AC8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B324BB28E9943A00F91AC8 /* UIColorExtension.swift */; };
 		50D71B3728BA04970030DE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B3628BA04970030DE09 /* AppDelegate.swift */; };
-		50D71B3928BA04970030DE09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B3828BA04970030DE09 /* SceneDelegate.swift */; };
-		50D71B3B28BA04970030DE09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B3A28BA04970030DE09 /* ViewController.swift */; };
-		50D71B3E28BA04970030DE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D71B3C28BA04970030DE09 /* Main.storyboard */; };
 		50D71B4028BA04980030DE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D71B3F28BA04980030DE09 /* Assets.xcassets */; };
 		50D71B4328BA04980030DE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D71B4128BA04980030DE09 /* LaunchScreen.storyboard */; };
 		50D71B4E28BA04980030DE09 /* CherryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B4D28BA04980030DE09 /* CherryTests.swift */; };
 		50D71B5828BA04980030DE09 /* CherryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B5728BA04980030DE09 /* CherryUITests.swift */; };
 		50D71B5A28BA04980030DE09 /* CherryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B5928BA04980030DE09 /* CherryUITestsLaunchTests.swift */; };
+		7085C94CD529FCFEC02234B0 /* Pods_Cherry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62913CFD40879A5A4C84AE /* Pods_Cherry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +52,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E0042FE71DFC49350EE5F2D /* Pods-CherryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryTests.release.xcconfig"; path = "Target Support Files/Pods-CherryTests/Pods-CherryTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E62913CFD40879A5A4C84AE /* Pods_Cherry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cherry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F20A42BABED88CF451E4201 /* Pods-Cherry-CherryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry-CherryUITests.release.xcconfig"; path = "Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50B3247828E97B6C00F91AC8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		50B3247A28E982A400F91AC8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		50B3247E28E9830400F91AC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50B3249128E983C600F91AC8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		50B3249728E984B800F91AC8 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		50B3249C28E985E300F91AC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50B3249E28E985E600F91AC8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		50B324A328E9878600F91AC8 /* ListVC_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC_Home.swift; sourceTree = "<group>"; };
+		50B324A428E9878600F91AC8 /* ListVC_Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVC_Home.xib; sourceTree = "<group>"; };
+		50B324A728E987B100F91AC8 /* HomeVC_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC_Home.swift; sourceTree = "<group>"; };
+		50B324A828E987B100F91AC8 /* HomeVC_Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC_Home.xib; sourceTree = "<group>"; };
+		50B324AB28E987D200F91AC8 /* MoneyVC_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyVC_Home.swift; sourceTree = "<group>"; };
+		50B324AC28E987D200F91AC8 /* MoneyVC_Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyVC_Home.xib; sourceTree = "<group>"; };
+		50B324AF28E987F400F91AC8 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		50B324B128E9881000F91AC8 /* SettingVC_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC_Home.swift; sourceTree = "<group>"; };
+		50B324B228E9881000F91AC8 /* SettingVC_Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC_Home.xib; sourceTree = "<group>"; };
+		50B324B528E98F4100F91AC8 /* UINavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
+		50B324B928E993F800F91AC8 /* CherryDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherryDefine.swift; sourceTree = "<group>"; };
+		50B324BB28E9943A00F91AC8 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		50D71B3328BA04970030DE09 /* Cherry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cherry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D71B3628BA04970030DE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50D71B3828BA04970030DE09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50D71B3A28BA04970030DE09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50D71B3D28BA04970030DE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50D71B3F28BA04980030DE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D71B4228BA04980030DE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50D71B4428BA04980030DE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +84,12 @@
 		50D71B5328BA04980030DE09 /* CherryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D71B5728BA04980030DE09 /* CherryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherryUITests.swift; sourceTree = "<group>"; };
 		50D71B5928BA04980030DE09 /* CherryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		551862645CF1FD66492D020B /* Pods-Cherry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry.debug.xcconfig"; path = "Target Support Files/Pods-Cherry/Pods-Cherry.debug.xcconfig"; sourceTree = "<group>"; };
+		6CBB1CF0C4429AA7D48F2376 /* Pods_CherryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CherryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9F048C98367531EA80BD58 /* Pods-Cherry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry.release.xcconfig"; path = "Target Support Files/Pods-Cherry/Pods-Cherry.release.xcconfig"; sourceTree = "<group>"; };
+		AFD959A698572654F4835E3C /* Pods-Cherry-CherryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry-CherryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3965B6F169C1E6709729737 /* Pods_Cherry_CherryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cherry_CherryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2586947A64DE917B2733F97 /* Pods-CherryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryTests.debug.xcconfig"; path = "Target Support Files/Pods-CherryTests/Pods-CherryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7085C94CD529FCFEC02234B0 /* Pods_Cherry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084D7EB4E0BEF7D302DE5152 /* Pods_CherryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +113,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4238175DFF010FEC5CC38AC2 /* Pods_Cherry_CherryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5058DD0B28E97960004531AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50B3247428E97ADF00F91AC8 /* Base */,
+				50B3247728E97B2300F91AC8 /* TabBar */,
+				50B324A028E9871A00F91AC8 /* Money */,
+				50B3249F28E9871500F91AC8 /* Home */,
+				50B324A128E9871E00F91AC8 /* List */,
+				50B324A228E9872500F91AC8 /* Setting */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50B3247428E97ADF00F91AC8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				50B324AF28E987F400F91AC8 /* BaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		50B3247728E97B2300F91AC8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				50B3247828E97B6C00F91AC8 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		50B3249628E984A000F91AC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50B3249728E984B800F91AC8 /* UILabelExtension.swift */,
+				50B324B528E98F4100F91AC8 /* UINavigationExtension.swift */,
+				50B324BB28E9943A00F91AC8 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50B3249F28E9871500F91AC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				50B324A728E987B100F91AC8 /* HomeVC_Home.swift */,
+				50B324A828E987B100F91AC8 /* HomeVC_Home.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		50B324A028E9871A00F91AC8 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				50B324AB28E987D200F91AC8 /* MoneyVC_Home.swift */,
+				50B324AC28E987D200F91AC8 /* MoneyVC_Home.xib */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		50B324A128E9871E00F91AC8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				50B324A328E9878600F91AC8 /* ListVC_Home.swift */,
+				50B324A428E9878600F91AC8 /* ListVC_Home.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		50B324A228E9872500F91AC8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				50B324B128E9881000F91AC8 /* SettingVC_Home.swift */,
+				50B324B228E9881000F91AC8 /* SettingVC_Home.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		50B324B828E993E700F91AC8 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				50B324B928E993F800F91AC8 /* CherryDefine.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		50D71B2A28BA04970030DE09 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +210,8 @@
 				50D71B4C28BA04980030DE09 /* CherryTests */,
 				50D71B5628BA04980030DE09 /* CherryUITests */,
 				50D71B3428BA04970030DE09 /* Products */,
+				62BD191B5A4B4D80A39BF086 /* Pods */,
+				DA6D058A24A64A00AD85145E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +229,14 @@
 			isa = PBXGroup;
 			children = (
 				50D71B3628BA04970030DE09 /* AppDelegate.swift */,
-				50D71B3828BA04970030DE09 /* SceneDelegate.swift */,
-				50D71B3A28BA04970030DE09 /* ViewController.swift */,
-				50D71B3C28BA04970030DE09 /* Main.storyboard */,
-				50D71B3F28BA04980030DE09 /* Assets.xcassets */,
 				50D71B4128BA04980030DE09 /* LaunchScreen.storyboard */,
+				50D71B3F28BA04980030DE09 /* Assets.xcassets */,
+				50B3249D28E985E300F91AC8 /* InfoPlist.strings */,
+				50B3247F28E9830400F91AC8 /* Localizable.strings */,
 				50D71B4428BA04980030DE09 /* Info.plist */,
+				50B324B828E993E700F91AC8 /* Objects */,
+				50B3249628E984A000F91AC8 /* Extensions */,
+				5058DD0B28E97960004531AB /* ViewControllers */,
 			);
 			path = Cherry;
 			sourceTree = "<group>";
@@ -127,6 +258,29 @@
 			path = CherryUITests;
 			sourceTree = "<group>";
 		};
+		62BD191B5A4B4D80A39BF086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551862645CF1FD66492D020B /* Pods-Cherry.debug.xcconfig */,
+				AB9F048C98367531EA80BD58 /* Pods-Cherry.release.xcconfig */,
+				AFD959A698572654F4835E3C /* Pods-Cherry-CherryUITests.debug.xcconfig */,
+				4F20A42BABED88CF451E4201 /* Pods-Cherry-CherryUITests.release.xcconfig */,
+				E2586947A64DE917B2733F97 /* Pods-CherryTests.debug.xcconfig */,
+				3E0042FE71DFC49350EE5F2D /* Pods-CherryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA6D058A24A64A00AD85145E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E62913CFD40879A5A4C84AE /* Pods_Cherry.framework */,
+				C3965B6F169C1E6709729737 /* Pods_Cherry_CherryUITests.framework */,
+				6CBB1CF0C4429AA7D48F2376 /* Pods_CherryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50D71B5D28BA04980030DE09 /* Build configuration list for PBXNativeTarget "Cherry" */;
 			buildPhases = (
+				E0F5017B174F2BE755435B51 /* [CP] Check Pods Manifest.lock */,
 				50D71B2F28BA04970030DE09 /* Sources */,
 				50D71B3028BA04970030DE09 /* Frameworks */,
 				50D71B3128BA04970030DE09 /* Resources */,
+				71A433BB48D98EAFDB213D21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50D71B6028BA04980030DE09 /* Build configuration list for PBXNativeTarget "CherryTests" */;
 			buildPhases = (
+				40AF7245844DD1A4C0AAF483 /* [CP] Check Pods Manifest.lock */,
 				50D71B4528BA04980030DE09 /* Sources */,
 				50D71B4628BA04980030DE09 /* Frameworks */,
 				50D71B4728BA04980030DE09 /* Resources */,
@@ -169,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50D71B6328BA04980030DE09 /* Build configuration list for PBXNativeTarget "CherryUITests" */;
 			buildPhases = (
+				D8872CD33A6B1F8952FED348 /* [CP] Check Pods Manifest.lock */,
 				50D71B4F28BA04980030DE09 /* Sources */,
 				50D71B5028BA04980030DE09 /* Frameworks */,
 				50D71B5128BA04980030DE09 /* Resources */,
+				DF133078A442057C483DCD9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +372,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 50D71B2A28BA04970030DE09;
 			productRefGroup = 50D71B3428BA04970030DE09 /* Products */;
@@ -231,9 +391,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B324AA28E987B100F91AC8 /* HomeVC_Home.xib in Resources */,
 				50D71B4328BA04980030DE09 /* LaunchScreen.storyboard in Resources */,
+				50B324B428E9881000F91AC8 /* SettingVC_Home.xib in Resources */,
+				50B324A628E9878600F91AC8 /* ListVC_Home.xib in Resources */,
+				50B3247D28E9830400F91AC8 /* Localizable.strings in Resources */,
 				50D71B4028BA04980030DE09 /* Assets.xcassets in Resources */,
-				50D71B3E28BA04970030DE09 /* Main.storyboard in Resources */,
+				50B3249B28E985E300F91AC8 /* InfoPlist.strings in Resources */,
+				50B324AE28E987D200F91AC8 /* MoneyVC_Home.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +418,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40AF7245844DD1A4C0AAF483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CherryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A433BB48D98EAFDB213D21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cherry/Pods-Cherry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cherry/Pods-Cherry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cherry/Pods-Cherry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8872CD33A6B1F8952FED348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cherry-CherryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF133078A442057C483DCD9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F5017B174F2BE755435B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cherry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50D71B2F28BA04970030DE09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D71B3B28BA04970030DE09 /* ViewController.swift in Sources */,
+				50B3247928E97B6C00F91AC8 /* TabBarViewController.swift in Sources */,
 				50D71B3728BA04970030DE09 /* AppDelegate.swift in Sources */,
-				50D71B3928BA04970030DE09 /* SceneDelegate.swift in Sources */,
+				50B3249828E984B800F91AC8 /* UILabelExtension.swift in Sources */,
+				50B324A928E987B100F91AC8 /* HomeVC_Home.swift in Sources */,
+				50B324A528E9878600F91AC8 /* ListVC_Home.swift in Sources */,
+				50B324BA28E993F800F91AC8 /* CherryDefine.swift in Sources */,
+				50B324B028E987F400F91AC8 /* BaseVC.swift in Sources */,
+				50B324B628E98F4100F91AC8 /* UINavigationExtension.swift in Sources */,
+				50B324BC28E9943A00F91AC8 /* UIColorExtension.swift in Sources */,
+				50B324B328E9881000F91AC8 /* SettingVC_Home.swift in Sources */,
+				50B324AD28E987D200F91AC8 /* MoneyVC_Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +573,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50D71B3C28BA04970030DE09 /* Main.storyboard */ = {
+		50B3247F28E9830400F91AC8 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50D71B3D28BA04970030DE09 /* Base */,
+				50B3247E28E9830400F91AC8 /* en */,
+				50B3249128E983C600F91AC8 /* zh-Hant */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		50B3249D28E985E300F91AC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B3249C28E985E300F91AC8 /* en */,
+				50B3249E28E985E600F91AC8 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		50D71B4128BA04980030DE09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				50D71B4228BA04980030DE09 /* Base */,
+				50B3247A28E982A400F91AC8 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -380,6 +668,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -432,6 +721,7 @@
 		};
 		50D71B5E28BA04980030DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551862645CF1FD66492D020B /* Pods-Cherry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,11 +730,13 @@
 				DEVELOPMENT_TEAM = XLJ6B9235Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cherry/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "飲食小幫手";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +752,7 @@
 		};
 		50D71B5F28BA04980030DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9F048C98367531EA80BD58 /* Pods-Cherry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,11 +761,13 @@
 				DEVELOPMENT_TEAM = XLJ6B9235Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cherry/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "飲食小幫手";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +783,7 @@
 		};
 		50D71B6128BA04980030DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2586947A64DE917B2733F97 /* Pods-CherryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +804,7 @@
 		};
 		50D71B6228BA04980030DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0042FE71DFC49350EE5F2D /* Pods-CherryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +825,7 @@
 		};
 		50D71B6428BA04980030DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD959A698572654F4835E3C /* Pods-Cherry-CherryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +844,7 @@
 		};
 		50D71B6528BA04980030DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F20A42BABED88CF451E4201 /* Pods-Cherry-CherryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
