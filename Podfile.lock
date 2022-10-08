@@ -1,0 +1,52 @@
+PODS:
+  - ActionKit (2.5.3)
+  - Alamofire (5.6.2)
+  - DLRadioButton (1.4.12)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManagerSwift (6.5.10)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SideMenu (6.5.0)
+  - SnapKit (5.6.0)
+  - UberSignature (1.0.3):
+    - UberSignature/Swift (= 1.0.3)
+  - UberSignature/Swift (1.0.3)
+
+DEPENDENCIES:
+  - ActionKit
+  - Alamofire
+  - DLRadioButton (~> 1.4)
+  - DZNEmptyDataSet
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SideMenu
+  - SnapKit
+  - UberSignature
+
+SPEC REPOS:
+  trunk:
+    - ActionKit
+    - Alamofire
+    - DLRadioButton
+    - DZNEmptyDataSet
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SideMenu
+    - SnapKit
+    - UberSignature
+
+SPEC CHECKSUMS:
+  ActionKit: c1b6427fd36a0fe2223555679bcc5dea437af5b3
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  UberSignature: 93a5860a83211569d6d25b586e0fcad8aa163144
+
+PODFILE CHECKSUM: d07284025fecd2eb5d1c15a9aed426441fe0bfde
+
+COCOAPODS: 1.11.3

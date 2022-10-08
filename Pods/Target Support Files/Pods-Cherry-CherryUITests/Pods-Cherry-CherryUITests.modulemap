@@ -1,0 +1,6 @@
+framework module Pods_Cherry_CherryUITests {
+  umbrella header "Pods-Cherry-CherryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

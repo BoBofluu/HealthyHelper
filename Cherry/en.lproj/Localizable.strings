@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Cherry
+
+  Created by 李旻峰 on 2022/10/2.
+  
+*/
+// MARK: - TabBarVC
+"TabBarVC:Money" = "Money";
+"TabBarVC:Home" = "Home";
+"TabBarVC:List" = "List";
+"TabBarVC:Setting" = "Setting";
+
+// MARK: - HomeVC_Home
+"test" = "testsss";
