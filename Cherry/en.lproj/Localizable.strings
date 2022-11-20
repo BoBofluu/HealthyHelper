@@ -6,8 +6,8 @@
   
 */
 // MARK: - TabBarVC
-"TabBarVC:Money" = "Money";
 "TabBarVC:Home" = "Home";
+"TabBarVC:Record" = "Record";
 "TabBarVC:List" = "List";
 "TabBarVC:Setting" = "Setting";
 

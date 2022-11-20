@@ -9,13 +9,23 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    class var D64F40: UIColor {
-        return UIColor(red: 214/255, green: 79/255, blue: 64/255, alpha: 1.0) /* #d64f40 */
+    class var background: UIColor {
+        return UIColor(red: 1, green: 0.98, blue: 0.929, alpha: 1) /* ##FFFAED */
     }
-    class var FBEEDD: UIColor {
-        return UIColor(red: 251/255, green: 238/255, blue: 221/255, alpha: 1.0) /* #fbeedd */
+    class var toolBar: UIColor {
+        return UIColor(red: 1, green: 0.949, blue: 0.817, alpha: 1) /* #FFF2D0 */
     }
-    class var E79786: UIColor {
-        return UIColor(red: 231/255, green: 151/255, blue: 134/255, alpha: 1.0) /* #e79786 */
+    class var darkGray: UIColor {
+        return UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1) /* #999999 */
     }
+    class var lightGray: UIColor {
+        return UIColor(red: 0.917, green: 0.917, blue: 0.917, alpha: 1) /* #EAEAEA */
+    }
+    class var placeholder: UIColor {
+        return UIColor(red: 0.792, green: 0.792, blue: 0.792, alpha: 1) /* #CACACA */
+    }
+    class var pink: UIColor {
+        return UIColor(red: 1, green: 0.65, blue: 0.65, alpha: 1) /* #FFA6A6 */
+    }
+    
 }

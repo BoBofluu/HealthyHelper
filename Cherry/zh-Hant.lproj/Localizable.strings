@@ -6,9 +6,9 @@
   
 */
 // MARK: - TabBarVC
-"TabBarVC:Money" = "存錢豬豬";
 "TabBarVC:Home" = "首頁";
-"TabBarVC:List" = "個人清單";
+"TabBarVC:Record" = "紀錄";
+"TabBarVC:List" = "清單";
 "TabBarVC:Setting" = "設定";
 
 // MARK: - HomeVC_Home

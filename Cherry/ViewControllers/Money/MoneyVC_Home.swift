@@ -11,6 +11,6 @@ class MoneyVC_Home: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationTitle = LString("TabBarVC:Money")
+//        navigationTitle = LString("TabBarVC:Record")
     }
 }

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+import UIKit
+
+let kMargin: CGFloat = 30.0
+let kSize_Screen: CGSize = UIScreen.main.bounds.size

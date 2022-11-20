@@ -12,28 +12,28 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setShoppingTabBar()
-        self.selectedIndex = 1
+        self.selectedIndex = 0
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
 //        self.navigationController?.isNavigationBarHidden = true
     }
     func setShoppingTabBar() {
-        // 存錢豬豬
-        let storeTabBar = MoneyVC_Home()
+        // 首頁
+        let storeTabBar = HomeVC_Home()
         let storeController = UINavigationController(rootViewController: storeTabBar)
         storeController.tabBarItem = UITabBarItem(
-            title: LString("TabBarVC:Money"),
+            title: LString("TabBarVC:Home"),
             image: UIImage(named: "TabBar_Money")?.withRenderingMode(.alwaysOriginal),
             selectedImage: UIImage(named: "TabBar_Money")?.withRenderingMode(.alwaysOriginal)
         )
-        // 首頁
-        let receiptScanTabBar = HomeVC_Home()
+        // 紀錄
+        let receiptScanTabBar = MoneyVC_Home()
         let receiptScanController = UINavigationController(rootViewController: receiptScanTabBar)
         receiptScanController.tabBarItem = UITabBarItem(
-            title: LString("TabBarVC:Home"),
+            title: LString("TabBarVC:Record"),
             image: UIImage(named: "TabBar_Home")?.withRenderingMode(.alwaysOriginal),
-            selectedImage: UIImage(named: "TabBar_Home")?.withRenderingMode(.alwaysOriginal)
+            selectedImage: UIImage(named: "TabBar_Home_Select")?.withRenderingMode(.alwaysOriginal)
         )
         // 清單
         let homeTabBar = ListVC_Home()
@@ -53,17 +53,17 @@ class TabBarViewController: UITabBarController {
         )
         // setting tabbarView
         self.viewControllers = [storeController, receiptScanController, homeTabBarController, receiptInfoController]
-        self.tabBar.tintColor = .D64F40
+        self.tabBar.tintColor = .pink
         // setting css
         if #available(iOS 15.0, *) {
             let appearance = UITabBarAppearance()
             appearance.configureWithOpaqueBackground()
-            appearance.backgroundColor = .FBEEDD
+            appearance.backgroundColor = .toolBar
             appearance.stackedLayoutAppearance.normal.titleTextAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 12, weight: .bold)]
             tabBar.standardAppearance = appearance
             tabBar.scrollEdgeAppearance = tabBar.standardAppearance
         } else {
-            tabBar.barTintColor = .FBEEDD
+            tabBar.barTintColor = .pink
         }
     }
 }

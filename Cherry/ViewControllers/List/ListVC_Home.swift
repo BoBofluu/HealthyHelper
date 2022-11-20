@@ -11,6 +11,6 @@ class ListVC_Home: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationTitle = LString("TabBarVC:List")
+//        navigationTitle = LString("TabBarVC:List")
     }
 }

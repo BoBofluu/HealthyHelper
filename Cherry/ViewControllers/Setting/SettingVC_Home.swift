@@ -11,6 +11,6 @@ class SettingVC_Home: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationTitle = LString("TabBarVC:Setting")
+//        navigationTitle = LString("TabBarVC:Setting")
     }
 }

@@ -32,6 +32,12 @@
 		50D71B5828BA04980030DE09 /* CherryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B5728BA04980030DE09 /* CherryUITests.swift */; };
 		50D71B5A28BA04980030DE09 /* CherryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D71B5928BA04980030DE09 /* CherryUITestsLaunchTests.swift */; };
 		7085C94CD529FCFEC02234B0 /* Pods_Cherry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E62913CFD40879A5A4C84AE /* Pods_Cherry.framework */; };
+		D19E5F27292A403800C469E7 /* hannotate-tc.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F26292A403800C469E7 /* hannotate-tc.otf */; };
+		D19E5F28292A403800C469E7 /* hannotate-tc.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F26292A403800C469E7 /* hannotate-tc.otf */; };
+		D19E5F29292A403800C469E7 /* hannotate-tc.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F26292A403800C469E7 /* hannotate-tc.otf */; };
+		D19E5F2B292A414400C469E7 /* hannotate-tc-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */; };
+		D19E5F2C292A414400C469E7 /* hannotate-tc-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */; };
+		D19E5F2D292A414400C469E7 /* hannotate-tc-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +95,8 @@
 		AB9F048C98367531EA80BD58 /* Pods-Cherry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry.release.xcconfig"; path = "Target Support Files/Pods-Cherry/Pods-Cherry.release.xcconfig"; sourceTree = "<group>"; };
 		AFD959A698572654F4835E3C /* Pods-Cherry-CherryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry-CherryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3965B6F169C1E6709729737 /* Pods_Cherry_CherryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cherry_CherryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19E5F26292A403800C469E7 /* hannotate-tc.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hannotate-tc.otf"; sourceTree = "<group>"; };
+		D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hannotate-tc-bold.otf"; sourceTree = "<group>"; };
 		E2586947A64DE917B2733F97 /* Pods-CherryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryTests.debug.xcconfig"; path = "Target Support Files/Pods-CherryTests/Pods-CherryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +133,8 @@
 			children = (
 				50B3247428E97ADF00F91AC8 /* Base */,
 				50B3247728E97B2300F91AC8 /* TabBar */,
-				50B324A028E9871A00F91AC8 /* Money */,
 				50B3249F28E9871500F91AC8 /* Home */,
+				50B324A028E9871A00F91AC8 /* Money */,
 				50B324A128E9871E00F91AC8 /* List */,
 				50B324A228E9872500F91AC8 /* Setting */,
 			);
@@ -228,6 +236,7 @@
 		50D71B3528BA04970030DE09 /* Cherry */ = {
 			isa = PBXGroup;
 			children = (
+				D10EFF23292A3EE4003AB7F5 /* fonts */,
 				50D71B3628BA04970030DE09 /* AppDelegate.swift */,
 				50D71B4128BA04980030DE09 /* LaunchScreen.storyboard */,
 				50D71B3F28BA04980030DE09 /* Assets.xcassets */,
@@ -269,6 +278,15 @@
 				3E0042FE71DFC49350EE5F2D /* Pods-CherryTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D10EFF23292A3EE4003AB7F5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */,
+				D19E5F26292A403800C469E7 /* hannotate-tc.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		DA6D058A24A64A00AD85145E /* Frameworks */ = {
@@ -393,7 +411,9 @@
 			files = (
 				50B324AA28E987B100F91AC8 /* HomeVC_Home.xib in Resources */,
 				50D71B4328BA04980030DE09 /* LaunchScreen.storyboard in Resources */,
+				D19E5F2B292A414400C469E7 /* hannotate-tc-bold.otf in Resources */,
 				50B324B428E9881000F91AC8 /* SettingVC_Home.xib in Resources */,
+				D19E5F27292A403800C469E7 /* hannotate-tc.otf in Resources */,
 				50B324A628E9878600F91AC8 /* ListVC_Home.xib in Resources */,
 				50B3247D28E9830400F91AC8 /* Localizable.strings in Resources */,
 				50D71B4028BA04980030DE09 /* Assets.xcassets in Resources */,
@@ -406,6 +426,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19E5F2C292A414400C469E7 /* hannotate-tc-bold.otf in Resources */,
+				D19E5F28292A403800C469E7 /* hannotate-tc.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +435,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19E5F2D292A414400C469E7 /* hannotate-tc-bold.otf in Resources */,
+				D19E5F29292A403800C469E7 /* hannotate-tc.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

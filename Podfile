@@ -9,12 +9,8 @@ target 'Cherry' do
 
     pod 'Alamofire'
     pod 'ActionKit'
-    pod 'SnapKit'
     pod 'IQKeyboardManagerSwift'
     pod 'NVActivityIndicatorView'
-    pod 'SideMenu'
-    pod 'DZNEmptyDataSet'
-    pod 'UberSignature'
     pod 'DLRadioButton', '~> 1.4'
 
   target 'CherryTests' do

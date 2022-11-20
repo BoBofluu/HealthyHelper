@@ -1,6 +1,0 @@
-framework module UberSignature {
-  umbrella header "UberSignature-umbrella.h"
-
-  export *
-  module * { export * }
-}
