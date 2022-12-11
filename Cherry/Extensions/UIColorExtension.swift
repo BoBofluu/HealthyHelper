@@ -10,7 +10,7 @@ import UIKit
 
 extension UIColor {
     class var background: UIColor {
-        return UIColor(red: 1, green: 0.98, blue: 0.929, alpha: 1) /* ##FFFAED */
+        return UIColor(red: 1, green: 0.98, blue: 0.929, alpha: 1) /* #FFFAED */
     }
     class var toolBar: UIColor {
         return UIColor(red: 1, green: 0.949, blue: 0.817, alpha: 1) /* #FFF2D0 */
@@ -27,5 +27,9 @@ extension UIColor {
     class var pink: UIColor {
         return UIColor(red: 1, green: 0.65, blue: 0.65, alpha: 1) /* #FFA6A6 */
     }
+//    class var pink: UIColor {
+//        return UIColor(red: 167/255, green: 143/255, blue: 133/255, alpha: 1.0) /* #a78f85 */
+//    }
+
     
 }

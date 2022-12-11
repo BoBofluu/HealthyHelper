@@ -5,6 +5,10 @@
   Created by 李旻峰 on 2022/10/2.
   
 */
+// MARK: - Base
+"Base:Cancel" = "Caencel";
+"Base:Confirm" = "Confirm";
+
 // MARK: - TabBarVC
 "TabBarVC:Home" = "Home";
 "TabBarVC:Record" = "Record";
@@ -12,4 +16,18 @@
 "TabBarVC:Setting" = "Setting";
 
 // MARK: - HomeVC_Home
-"test" = "testsss";
+"HomeVC:Title" = "Today Cost";
+"HomeVC:MonthlyCost" = "Monthly Cost";
+"HomeVC:MonthlyIncome" = "Monthly Income";
+
+// MARK: - MoneyVC_Home
+"MoneyMC:Cost" = "Cost";
+"MoneyMC:Income" = "Income";
+"MoneyMC:Money" = "Money";
+"MoneyMC:PlusType" = "Type＋";
+"MoneyMC:Type" = "Type";
+"MoneyMC:TypeChoose" = "Choose Type";
+"MoneyMC:Date" = "Date";
+"MoneyMC:DateChoose" = "Choose Date";
+"MoneyMC:Remark" = "Remark";
+"MoneyMC:RemarkChoose" = "Enter Remark";

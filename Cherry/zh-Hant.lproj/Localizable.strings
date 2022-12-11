@@ -5,6 +5,10 @@
   Created by 李旻峰 on 2022/10/2.
   
 */
+// MARK: - Base
+"Base:Cancel" = "取消";
+"Base:Confirm" = "確認";
+
 // MARK: - TabBarVC
 "TabBarVC:Home" = "首頁";
 "TabBarVC:Record" = "紀錄";
@@ -12,4 +16,18 @@
 "TabBarVC:Setting" = "設定";
 
 // MARK: - HomeVC_Home
-"test" = "測試";
+"HomeVC:Title" = "今日花費";
+"HomeVC:MonthlyCost" = "本月支出";
+"HomeVC:MonthlyIncome" = "本月收入";
+
+// MARK: - MoneyVC_Home
+"MoneyMC:Cost" = "支出";
+"MoneyMC:Income" = "收入";
+"MoneyMC:Money" = "金額";
+"MoneyMC:PlusType" = "追加類型＋";
+"MoneyMC:Type" = "類型";
+"MoneyMC:TypeChoose" = "選擇類型";
+"MoneyMC:Date" = "日期";
+"MoneyMC:DateChoose" = "選擇日期";
+"MoneyMC:Remark" = "備註";
+"MoneyMC:RemarkChoose" = "輸入備註";

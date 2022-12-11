@@ -24,32 +24,32 @@ class TabBarViewController: UITabBarController {
         let storeController = UINavigationController(rootViewController: storeTabBar)
         storeController.tabBarItem = UITabBarItem(
             title: LString("TabBarVC:Home"),
-            image: UIImage(named: "TabBar_Money")?.withRenderingMode(.alwaysOriginal),
-            selectedImage: UIImage(named: "TabBar_Money")?.withRenderingMode(.alwaysOriginal)
+            image: UIImage(systemName: "house")?.withRenderingMode(.alwaysOriginal).withTintColor(.gray),
+            selectedImage: UIImage(systemName: "house.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(.pink)
         )
         // 紀錄
         let receiptScanTabBar = MoneyVC_Home()
         let receiptScanController = UINavigationController(rootViewController: receiptScanTabBar)
         receiptScanController.tabBarItem = UITabBarItem(
             title: LString("TabBarVC:Record"),
-            image: UIImage(named: "TabBar_Home")?.withRenderingMode(.alwaysOriginal),
-            selectedImage: UIImage(named: "TabBar_Home_Select")?.withRenderingMode(.alwaysOriginal)
+            image: UIImage(systemName: "pencil.line")?.withRenderingMode(.alwaysOriginal).withTintColor(.gray),
+            selectedImage: UIImage(systemName: "pencil.line")?.withRenderingMode(.alwaysOriginal).withTintColor(.pink)
         )
         // 清單
         let homeTabBar = ListVC_Home()
         let homeTabBarController = UINavigationController(rootViewController: homeTabBar)
         homeTabBarController.tabBarItem = UITabBarItem(
             title: LString("TabBarVC:List"),
-            image: UIImage(named: "TabBar_List")?.withRenderingMode(.alwaysOriginal),
-            selectedImage: UIImage(named: "TabBar_List")?.withRenderingMode(.alwaysOriginal)
+            image: UIImage(systemName: "list.clipboard")?.withRenderingMode(.alwaysOriginal).withTintColor(.gray),
+            selectedImage: UIImage(systemName: "list.clipboard.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(.pink)
         )
         // 設定
         let receiptInfoTabBar = SettingVC_Home()
         let receiptInfoController = UINavigationController(rootViewController: receiptInfoTabBar)
         receiptInfoController.tabBarItem = UITabBarItem(
             title: LString("TabBarVC:Setting"),
-            image: UIImage(named: "TabBar_Setting")?.withRenderingMode(.alwaysOriginal),
-            selectedImage: UIImage(named: "TabBar_Setting")?.withRenderingMode(.alwaysOriginal)
+            image: UIImage(systemName: "gearshape")?.withRenderingMode(.alwaysOriginal).withTintColor(.gray),
+            selectedImage: UIImage(systemName: "gearshape.fill")?.withRenderingMode(.alwaysOriginal).withTintColor(.pink)
         )
         // setting tabbarView
         self.viewControllers = [storeController, receiptScanController, homeTabBarController, receiptInfoController]

@@ -8,5 +8,7 @@
 import Foundation
 import UIKit
 
-let kMargin: CGFloat = 30.0
-let kSize_Screen: CGSize = UIScreen.main.bounds.size
+// 螢幕大小
+let dScreenSize: CGSize = UIScreen.main.bounds.size
+// 時間格式
+let dTimeFormatDate: String = "yyyy-MM-dd"
