@@ -41,12 +41,19 @@
 		D19E5F2B292A414400C469E7 /* hannotate-tc-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */; };
 		D19E5F2C292A414400C469E7 /* hannotate-tc-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */; };
 		D19E5F2D292A414400C469E7 /* hannotate-tc-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */; };
+		D1CED60E294EFCCB00217ADA /* MoneyPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED60C294EFCCB00217ADA /* MoneyPopupVC.swift */; };
+		D1CED60F294EFCCB00217ADA /* MoneyPopupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1CED60D294EFCCB00217ADA /* MoneyPopupVC.xib */; };
+		D1CED611294F060C00217ADA /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CED610294F060C00217ADA /* UIImageExtension.swift */; };
 		D1D258912944773A005458CA /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D258902944773A005458CA /* UITextFieldExtension.swift */; };
 		D1D258932945EF06005458CA /* UISegmentedControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D258922945EF06005458CA /* UISegmentedControlExtension.swift */; };
 		D1D258952945EFF5005458CA /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D258942945EFF5005458CA /* UITextViewExtension.swift */; };
 		D1D258972945F20A005458CA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D258962945F20A005458CA /* Configuration.swift */; };
 		D1D2589D294602AE005458CA /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D2589B294602AE005458CA /* DatePickerVC.swift */; };
 		D1D2589E294602AE005458CA /* DatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D2589C294602AE005458CA /* DatePickerVC.xib */; };
+		D1E52862295D6E2D00B75870 /* TypePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E52860295D6E2D00B75870 /* TypePickerVC.swift */; };
+		D1E52863295D6E2D00B75870 /* TypePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E52861295D6E2D00B75870 /* TypePickerVC.xib */; };
+		D1FE9B652956EFE9009A46C7 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE9B642956EFE9009A46C7 /* StringExtension.swift */; };
+		D1FE9B672956F10D009A46C7 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE9B662956F10D009A46C7 /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,12 +116,19 @@
 		D11D5A0429460D3300E2104E /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		D19E5F26292A403800C469E7 /* hannotate-tc.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hannotate-tc.otf"; sourceTree = "<group>"; };
 		D19E5F2A292A414400C469E7 /* hannotate-tc-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hannotate-tc-bold.otf"; sourceTree = "<group>"; };
+		D1CED60C294EFCCB00217ADA /* MoneyPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyPopupVC.swift; sourceTree = "<group>"; };
+		D1CED60D294EFCCB00217ADA /* MoneyPopupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyPopupVC.xib; sourceTree = "<group>"; };
+		D1CED610294F060C00217ADA /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		D1D258902944773A005458CA /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		D1D258922945EF06005458CA /* UISegmentedControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlExtension.swift; sourceTree = "<group>"; };
 		D1D258942945EFF5005458CA /* UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
 		D1D258962945F20A005458CA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		D1D2589B294602AE005458CA /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		D1D2589C294602AE005458CA /* DatePickerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerVC.xib; sourceTree = "<group>"; };
+		D1E52860295D6E2D00B75870 /* TypePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePickerVC.swift; sourceTree = "<group>"; };
+		D1E52861295D6E2D00B75870 /* TypePickerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypePickerVC.xib; sourceTree = "<group>"; };
+		D1FE9B642956EFE9009A46C7 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D1FE9B662956F10D009A46C7 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		E2586947A64DE917B2733F97 /* Pods-CherryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryTests.debug.xcconfig"; path = "Target Support Files/Pods-CherryTests/Pods-CherryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +179,8 @@
 				50B324AF28E987F400F91AC8 /* BaseVC.swift */,
 				D1D2589B294602AE005458CA /* DatePickerVC.swift */,
 				D1D2589C294602AE005458CA /* DatePickerVC.xib */,
+				D1E52860295D6E2D00B75870 /* TypePickerVC.swift */,
+				D1E52861295D6E2D00B75870 /* TypePickerVC.xib */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -189,6 +205,9 @@
 				D1D258942945EFF5005458CA /* UITextViewExtension.swift */,
 				D11D5A022946084500E2104E /* UIButtonExtension.swift */,
 				D11D5A0429460D3300E2104E /* DateExtension.swift */,
+				D1CED610294F060C00217ADA /* UIImageExtension.swift */,
+				D1FE9B642956EFE9009A46C7 /* StringExtension.swift */,
+				D1FE9B662956F10D009A46C7 /* DoubleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -207,6 +226,8 @@
 			children = (
 				50B324AB28E987D200F91AC8 /* MoneyVC_Home.swift */,
 				50B324AC28E987D200F91AC8 /* MoneyVC_Home.xib */,
+				D1CED60C294EFCCB00217ADA /* MoneyPopupVC.swift */,
+				D1CED60D294EFCCB00217ADA /* MoneyPopupVC.xib */,
 			);
 			path = Money;
 			sourceTree = "<group>";
@@ -446,6 +467,7 @@
 			files = (
 				50B324AA28E987B100F91AC8 /* HomeVC_Home.xib in Resources */,
 				50D71B4328BA04980030DE09 /* LaunchScreen.storyboard in Resources */,
+				D1CED60F294EFCCB00217ADA /* MoneyPopupVC.xib in Resources */,
 				D19E5F2B292A414400C469E7 /* hannotate-tc-bold.otf in Resources */,
 				50B324B428E9881000F91AC8 /* SettingVC_Home.xib in Resources */,
 				D1D2589E294602AE005458CA /* DatePickerVC.xib in Resources */,
@@ -454,6 +476,7 @@
 				50B3247D28E9830400F91AC8 /* Localizable.strings in Resources */,
 				50D71B4028BA04980030DE09 /* Assets.xcassets in Resources */,
 				50B3249B28E985E300F91AC8 /* InfoPlist.strings in Resources */,
+				D1E52863295D6E2D00B75870 /* TypePickerVC.xib in Resources */,
 				50B324AE28E987D200F91AC8 /* MoneyVC_Home.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,10 +611,12 @@
 			files = (
 				50B3247928E97B6C00F91AC8 /* TabBarViewController.swift in Sources */,
 				50D71B3728BA04970030DE09 /* AppDelegate.swift in Sources */,
+				D1CED611294F060C00217ADA /* UIImageExtension.swift in Sources */,
 				50B3249828E984B800F91AC8 /* UILabelExtension.swift in Sources */,
 				50B324A928E987B100F91AC8 /* HomeVC_Home.swift in Sources */,
 				50B324A528E9878600F91AC8 /* ListVC_Home.swift in Sources */,
 				D11D5A0529460D3300E2104E /* DateExtension.swift in Sources */,
+				D1CED60E294EFCCB00217ADA /* MoneyPopupVC.swift in Sources */,
 				D11D5A032946084500E2104E /* UIButtonExtension.swift in Sources */,
 				50B324BA28E993F800F91AC8 /* CherryDefine.swift in Sources */,
 				D1D258972945F20A005458CA /* Configuration.swift in Sources */,
@@ -600,11 +625,14 @@
 				D1D258912944773A005458CA /* UITextFieldExtension.swift in Sources */,
 				50B324B028E987F400F91AC8 /* BaseVC.swift in Sources */,
 				D1D258952945EFF5005458CA /* UITextViewExtension.swift in Sources */,
+				D1FE9B672956F10D009A46C7 /* DoubleExtension.swift in Sources */,
 				50B324B628E98F4100F91AC8 /* UINavigationExtension.swift in Sources */,
 				50B324BC28E9943A00F91AC8 /* UIColorExtension.swift in Sources */,
 				50B324B328E9881000F91AC8 /* SettingVC_Home.swift in Sources */,
 				D1D258932945EF06005458CA /* UISegmentedControlExtension.swift in Sources */,
+				D1FE9B652956EFE9009A46C7 /* StringExtension.swift in Sources */,
 				50B324AD28E987D200F91AC8 /* MoneyVC_Home.swift in Sources */,
+				D1E52862295D6E2D00B75870 /* TypePickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,7 +832,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -835,7 +863,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

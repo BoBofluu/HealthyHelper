@@ -27,9 +27,10 @@ extension UIColor {
     class var pink: UIColor {
         return UIColor(red: 1, green: 0.65, blue: 0.65, alpha: 1) /* #FFA6A6 */
     }
-//    class var pink: UIColor {
-//        return UIColor(red: 167/255, green: 143/255, blue: 133/255, alpha: 1.0) /* #a78f85 */
-//    }
-
-    
+    class var darkPink: UIColor {
+        return UIColor(red: 0.7765, green: 0.5137, blue: 0.5137, alpha: 1.0) /* #c68383 */
+    }
+    class var keyboardGray: UIColor {
+        return UIColor(red: 239/255, green: 239/255, blue: 244/255, alpha: 1) /* #EFEFF4 */
+    }
 }

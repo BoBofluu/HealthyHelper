@@ -9,13 +9,13 @@ import UIKit
 
 class HomeVC_Home: BaseVC {
     
-    @IBOutlet weak var m_vCircle: UIView!
+    @IBOutlet weak var vCircle: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        m_vCircle.layer.cornerRadius = (dScreenSize.width - 60.0) / 2.0
+        vCircle.layer.cornerRadius = (dScreenSize.width - 60.0) / 2.0
         print("viewDidLayoutSubviews: \(dScreenSize)")
     }
     override func viewWillLayoutSubviews() {

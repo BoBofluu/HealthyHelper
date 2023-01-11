@@ -21,13 +21,16 @@
 "HomeVC:MonthlyIncome" = "Monthly Income";
 
 // MARK: - MoneyVC_Home
-"MoneyMC:Cost" = "Cost";
-"MoneyMC:Income" = "Income";
-"MoneyMC:Money" = "Money";
-"MoneyMC:PlusType" = "Type＋";
-"MoneyMC:Type" = "Type";
-"MoneyMC:TypeChoose" = "Choose Type";
-"MoneyMC:Date" = "Date";
-"MoneyMC:DateChoose" = "Choose Date";
-"MoneyMC:Remark" = "Remark";
-"MoneyMC:RemarkChoose" = "Enter Remark";
+"MoneyVC:Cost" = "Cost";
+"MoneyVC:Income" = "Income";
+"MoneyVC:Money" = "Money";
+"MoneyVC:PlusType" = "Type＋";
+"MoneyVC:Type" = "Type";
+"MoneyVC:TypeChoose" = "Choose Type";
+"MoneyVC:Date" = "Date";
+"MoneyVC:DateChoose" = "Choose Date";
+"MoneyVC:Remark" = "Remark";
+"MoneyVC:RemarkChoose" = "Enter Remark";
+
+// MARK: - MoneyPopupVC
+"MoneyPopVC:Clear" = "AC";
