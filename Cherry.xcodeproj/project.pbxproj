@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		084D7EB4E0BEF7D302DE5152 /* Pods_CherryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBB1CF0C4429AA7D48F2376 /* Pods_CherryTests.framework */; };
+		11BA8CE0296FED6600475A6F /* RemarkPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA8CDE296FED6600475A6F /* RemarkPopupVC.swift */; };
+		11BA8CE1296FED6600475A6F /* RemarkPopupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11BA8CDF296FED6600475A6F /* RemarkPopupVC.xib */; };
+		11BA8CE3296FFB8400475A6F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA8CE2296FFB8400475A6F /* UIViewControllerExtension.swift */; };
 		4238175DFF010FEC5CC38AC2 /* Pods_Cherry_CherryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3965B6F169C1E6709729737 /* Pods_Cherry_CherryUITests.framework */; };
 		50B3247928E97B6C00F91AC8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3247828E97B6C00F91AC8 /* TabBarViewController.swift */; };
 		50B3247D28E9830400F91AC8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B3247F28E9830400F91AC8 /* Localizable.strings */; };
@@ -74,6 +77,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11BA8CDE296FED6600475A6F /* RemarkPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkPopupVC.swift; sourceTree = "<group>"; };
+		11BA8CDF296FED6600475A6F /* RemarkPopupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemarkPopupVC.xib; sourceTree = "<group>"; };
+		11BA8CE2296FFB8400475A6F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		3E0042FE71DFC49350EE5F2D /* Pods-CherryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CherryTests.release.xcconfig"; path = "Target Support Files/Pods-CherryTests/Pods-CherryTests.release.xcconfig"; sourceTree = "<group>"; };
 		3E62913CFD40879A5A4C84AE /* Pods_Cherry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cherry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F20A42BABED88CF451E4201 /* Pods-Cherry-CherryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cherry-CherryUITests.release.xcconfig"; path = "Target Support Files/Pods-Cherry-CherryUITests/Pods-Cherry-CherryUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +206,7 @@
 				50B324B528E98F4100F91AC8 /* UINavigationExtension.swift */,
 				50B324BB28E9943A00F91AC8 /* UIColorExtension.swift */,
 				D111A89D293B5B0A0005F5D2 /* UIViewExtension.swift */,
+				11BA8CE2296FFB8400475A6F /* UIViewControllerExtension.swift */,
 				D1D258902944773A005458CA /* UITextFieldExtension.swift */,
 				D1D258922945EF06005458CA /* UISegmentedControlExtension.swift */,
 				D1D258942945EFF5005458CA /* UITextViewExtension.swift */,
@@ -228,6 +235,8 @@
 				50B324AC28E987D200F91AC8 /* MoneyVC_Home.xib */,
 				D1CED60C294EFCCB00217ADA /* MoneyPopupVC.swift */,
 				D1CED60D294EFCCB00217ADA /* MoneyPopupVC.xib */,
+				11BA8CDE296FED6600475A6F /* RemarkPopupVC.swift */,
+				11BA8CDF296FED6600475A6F /* RemarkPopupVC.xib */,
 			);
 			path = Money;
 			sourceTree = "<group>";
@@ -466,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B324AA28E987B100F91AC8 /* HomeVC_Home.xib in Resources */,
+				11BA8CE1296FED6600475A6F /* RemarkPopupVC.xib in Resources */,
 				50D71B4328BA04980030DE09 /* LaunchScreen.storyboard in Resources */,
 				D1CED60F294EFCCB00217ADA /* MoneyPopupVC.xib in Resources */,
 				D19E5F2B292A414400C469E7 /* hannotate-tc-bold.otf in Resources */,
@@ -617,6 +627,7 @@
 				50B324A528E9878600F91AC8 /* ListVC_Home.swift in Sources */,
 				D11D5A0529460D3300E2104E /* DateExtension.swift in Sources */,
 				D1CED60E294EFCCB00217ADA /* MoneyPopupVC.swift in Sources */,
+				11BA8CE0296FED6600475A6F /* RemarkPopupVC.swift in Sources */,
 				D11D5A032946084500E2104E /* UIButtonExtension.swift in Sources */,
 				50B324BA28E993F800F91AC8 /* CherryDefine.swift in Sources */,
 				D1D258972945F20A005458CA /* Configuration.swift in Sources */,
@@ -630,6 +641,7 @@
 				50B324BC28E9943A00F91AC8 /* UIColorExtension.swift in Sources */,
 				50B324B328E9881000F91AC8 /* SettingVC_Home.swift in Sources */,
 				D1D258932945EF06005458CA /* UISegmentedControlExtension.swift in Sources */,
+				11BA8CE3296FFB8400475A6F /* UIViewControllerExtension.swift in Sources */,
 				D1FE9B652956EFE9009A46C7 /* StringExtension.swift in Sources */,
 				50B324AD28E987D200F91AC8 /* MoneyVC_Home.swift in Sources */,
 				D1E52862295D6E2D00B75870 /* TypePickerVC.swift in Sources */,
@@ -821,9 +833,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XLJ6B9235Z;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cherry/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "飲食小幫手";
@@ -840,6 +853,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.doubleB.Cherry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -852,9 +866,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XLJ6B9235Z;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cherry/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "飲食小幫手";
@@ -871,6 +886,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.doubleB.Cherry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

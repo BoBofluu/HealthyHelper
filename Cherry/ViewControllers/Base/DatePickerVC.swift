@@ -1,7 +1,7 @@
 //
 //  DatePickerVC.swift
 //  Cherry
-//
+//  記帳頁面的時間彈出視窗
 //  Created by 李旻峰 on 2022/12/11.
 //
 

@@ -95,14 +95,6 @@
                                 <constraint firstItem="57y-Of-3fc" firstAttribute="leading" secondItem="t9O-Vq-igg" secondAttribute="leading" constant="20" id="oaO-cR-kjw"/>
                                 <constraint firstItem="6et-qi-dW0" firstAttribute="centerY" secondItem="t9O-Vq-igg" secondAttribute="centerY" id="zgC-Pb-V6v"/>
                             </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                    <real key="value" value="1"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                    <color key="value" name="commonGray"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBX-4g-Lg3" userLabel="date View">
                             <rect key="frame" x="0.0" y="486.33333333333337" width="393" height="306.66666666666663"/>
@@ -148,9 +140,6 @@
         </namedColor>
         <namedColor name="PinkColor">
             <color red="1" green="0.65100002288818359" blue="0.65100002288818359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="commonGray">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

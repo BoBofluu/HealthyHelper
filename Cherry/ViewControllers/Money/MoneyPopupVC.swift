@@ -1,7 +1,7 @@
 //
 //  MoneyPopupVC.swift
 //  Cherry
-//
+//  計算機
 //  Created by 李旻峰 on 2022/12/18.
 //
 
@@ -94,7 +94,6 @@ class MoneyPopupVC: UIViewController {
     }
     /// 點擊上方空白處
     @IBAction func doClickDismiss(_ sender: Any) {
-        Dprint("點擊空白")
         confirmAction!()
     }
     /// 清除全部 AC

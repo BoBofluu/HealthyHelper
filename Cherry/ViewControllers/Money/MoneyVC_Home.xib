@@ -22,10 +22,12 @@
             <connections>
                 <outlet property="bDate" destination="uh7-fg-W6b" id="hqO-rE-QeY"/>
                 <outlet property="bMoney" destination="Jx5-Lm-UgM" id="CI9-AW-pBI"/>
+                <outlet property="bRemark" destination="fgX-ZZ-hKW" id="DuX-e2-zeL"/>
                 <outlet property="bSave" destination="djX-rt-hdy" id="ZR7-Uh-wGJ"/>
                 <outlet property="bType" destination="G1W-zs-qH3" id="FVx-gk-1zj"/>
                 <outlet property="lDate" destination="9If-jE-8Y9" id="X6X-dO-Vii"/>
                 <outlet property="lMoney" destination="Y6b-j6-z8u" id="fon-L4-Sr7"/>
+                <outlet property="lRemark" destination="m5F-kM-EVY" id="NsV-sj-1ch"/>
                 <outlet property="lType" destination="XQj-To-62M" id="VRC-8j-h5g"/>
                 <outlet property="scType" destination="cRv-OW-AEY" id="Gof-Rc-81m"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -232,6 +234,13 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NWM-gb-XOp" userLabel="Remark View">
                                                     <rect key="frame" x="0.0" y="120" width="333" height="60"/>
                                                     <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgX-ZZ-hKW">
+                                                            <rect key="frame" x="0.0" y="0.0" width="333" height="60"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <connections>
+                                                                <action selector="doClickRemark:" destination="-1" eventType="touchUpInside" id="gRF-KA-UHF"/>
+                                                            </connections>
+                                                        </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="MoneyVC:Remark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2H-yg-VKe">
                                                             <rect key="frame" x="20" y="16" width="165.66666666666666" height="28"/>
                                                             <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
@@ -253,11 +262,15 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstItem="fgX-ZZ-hKW" firstAttribute="top" secondItem="NWM-gb-XOp" secondAttribute="top" id="0bP-fe-zoJ"/>
+                                                        <constraint firstItem="fgX-ZZ-hKW" firstAttribute="leading" secondItem="NWM-gb-XOp" secondAttribute="leading" id="51O-W2-ZvQ"/>
                                                         <constraint firstItem="m5F-kM-EVY" firstAttribute="trailing" secondItem="NWM-gb-XOp" secondAttribute="trailing" constant="-20" id="7gw-aC-tg9"/>
                                                         <constraint firstItem="q2H-yg-VKe" firstAttribute="leading" secondItem="NWM-gb-XOp" secondAttribute="leading" constant="20" id="Hph-Gc-5dT"/>
                                                         <constraint firstItem="m5F-kM-EVY" firstAttribute="leading" secondItem="q2H-yg-VKe" secondAttribute="trailing" constant="20" id="XqC-Qk-bVt"/>
+                                                        <constraint firstAttribute="bottom" secondItem="fgX-ZZ-hKW" secondAttribute="bottom" id="fak-bE-Uae"/>
                                                         <constraint firstItem="m5F-kM-EVY" firstAttribute="centerY" secondItem="NWM-gb-XOp" secondAttribute="centerY" id="kpj-rY-352"/>
                                                         <constraint firstItem="q2H-yg-VKe" firstAttribute="centerY" secondItem="NWM-gb-XOp" secondAttribute="centerY" id="rKV-ti-fbA"/>
+                                                        <constraint firstAttribute="trailing" secondItem="fgX-ZZ-hKW" secondAttribute="trailing" id="w8J-By-Ipz"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>

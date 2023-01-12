@@ -1,7 +1,7 @@
 //
 //  MoneyVC_Home.swift
 //  Cherry
-//
+//  記帳頁面
 //  Created by 李旻峰 on 2022/10/2.
 //
 
@@ -15,9 +15,11 @@ enum RecordType: Int {
 class MoneyVC_Home: BaseVC {
     /// 支出 / 收入
     @IBOutlet weak var scType: UISegmentedControl!
+    
     /// 金額按鈕
     @IBOutlet weak var bMoney: UIButton!
     @IBOutlet weak var lMoney: UILabel!
+    
     /// 類型按鈕
     @IBOutlet weak var bType: UIButton!
     /// 類型
@@ -61,6 +63,14 @@ class MoneyVC_Home: BaseVC {
     private let regex = try? NSRegularExpression(pattern: "[+\\-x÷]$", options: .caseInsensitive)
     private let regexDot = try? NSRegularExpression(pattern: "[.]$", options: .caseInsensitive)
     private let regexAll = try? NSRegularExpression(pattern: "[+\\-x÷.]$", options: .caseInsensitive)
+    
+    /// 備註按鈕
+    @IBOutlet weak var bRemark: UIButton!
+    /// 備註
+    @IBOutlet weak var lRemark: UILabel!
+    /// 備註彈出視窗
+    private var remarkPopupVC = RemarkPopupVC()
+
     /// 保存按鈕
     @IBOutlet weak var bSave: UIButton!
     
@@ -310,6 +320,16 @@ class MoneyVC_Home: BaseVC {
     
     // MARK: 以下為點擊方法 ------------------------------------------
     
+    /// 點擊支出 收入
+    @IBAction func doClickSegment(_ sender: UISegmentedControl) {
+        lType.text = LString("MoneyVC:TypeChoose")
+    }
+    /// 點擊金額
+    @IBAction func doClickMoney(_ sender: Any) {
+        DprintLine(message: "Money")
+        // 彈出
+        moneyPopupVC.doPresent(vc: self)
+    }
     /// 點擊種類
     @IBAction func doClickType(_ sender: Any) {
         if scType.selectedSegmentIndex == RecordType.cost.rawValue {
@@ -320,14 +340,7 @@ class MoneyVC_Home: BaseVC {
             incomePickerVC.doPresent(vc: self)
         }
     }
-    /// 點擊金額
-    @IBAction func doClickMoney(_ sender: Any) {
-        DprintLine(message: "Money")
-        // 彈出
-        moneyPopupVC.doPresent(vc: self)
-    }
-    
-    /// 點擊生日
+    /// 點擊日期
     @IBAction func doClickDate(_ sender: Any) {
         datePickerVC.m_confirmAction = {
             self.datePickerVC.doClickDismiss()
@@ -335,9 +348,13 @@ class MoneyVC_Home: BaseVC {
         }
         datePickerVC.doPresent(vc: self)
     }
-    /// 點擊支出 收入
-    @IBAction func doClickSegment(_ sender: UISegmentedControl) {
-        lType.text = LString("MoneyVC:TypeChoose")
+    @IBAction func doClickRemark(_ sender: Any) {
+        remarkPopupVC.doPresent(vc: self)
+        remarkPopupVC.confirmAction = { text in
+            self.remarkPopupVC.doClickDismiss()
+            self.lRemark.text = text
+            DprintLine(message: "text: \(self.lRemark.text)")
+        }
     }
     
     /// 點擊保存

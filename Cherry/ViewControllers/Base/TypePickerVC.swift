@@ -1,7 +1,7 @@
 //
 //  MoneyTypeVC.swift
 //  Cherry
-//
+//  記帳頁面的類型彈出視窗
 //  Created by 李旻峰 on 2022/12/29.
 //
 
