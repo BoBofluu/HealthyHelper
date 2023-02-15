@@ -1,0 +1,69 @@
+/*
+  Localizable.strings
+  Cherry
+
+  Created by 李旻峰 on 2022/10/2.
+  
+*/
+// MARK: - DefaultData
+"DefaultData:Pay1" = "伙食";
+"DefaultData:Pay2" = "甜點";
+"DefaultData:Pay3" = "日用品";
+"DefaultData:Pay4" = "交通";
+"DefaultData:Pay5" = "衣服";
+"DefaultData:Pay6" = "交際";
+"DefaultData:Pay7" = "其他";
+"DefaultData:Income1" = "薪水";
+"DefaultData:Income2" = "回饋金";
+"DefaultData:Income3" = "其他";
+
+// MARK: - Base
+"Base:Cancel" = "取消";
+"Base:Confirm" = "確認";
+"Base:Unit" = "元";
+
+// MARK: - TabBarVC
+"TabBarVC:Home" = "首頁";
+"TabBarVC:Record" = "紀錄";
+"TabBarVC:List" = "清單";
+"TabBarVC:Setting" = "設定";
+
+// MARK: - HomeVC_Home
+"HomeVC:Title" = "今日花費";
+"HomeVC:MonthlyCost" = "本月支出";
+"HomeVC:MonthlyIncome" = "本月收入";
+
+// MARK: - MoneyVC_Home
+"MoneyVC:Cost" = "支出";
+"MoneyVC:Income" = "收入";
+"MoneyVC:Money" = "金額";
+"MoneyVC:PlusType" = "追加類型＋";
+"MoneyVC:Type" = "類型";
+"MoneyVC:TypeChoose" = "選擇類型";
+"MoneyVC:Date" = "日期";
+"MoneyVC:DateChoose" = "選擇日期";
+"MoneyVC:Remark" = "備註";
+"MoneyVC:RemarkChoose" = "輸入備註";
+"MoneyVC:Save" = "保存";
+
+// MARK: - MoneyPopupVC
+"MoneyPopVC:Clear" = "清空";
+
+// MARK: - EditTypeVC
+"EditTypeVC:Title" = "編輯類型";
+"EditTypeVC:PlusType" = "新增類型";
+"EditTypeVC:DeleteTitle" = "點擊刪除";
+"EditTypeVC:SwipeTitle" = "長按可更改順序";
+"EditTypeVC:Delete" = "刪除";
+"EditTypeVC:DeleteTitle" = "確定要刪除嗎？";
+"EditTypeVC:DeleteMessage" = "刪除後無法復原";
+
+// MARK: - PlusTypeVC
+"PlusTypeVC:Title" = "新增類型";
+"PlusTypeVC:Type" = "種類名稱";
+"PlusTypeVC:Color" = "種類顏色";
+
+// MARK: - ListUpdateMoneyVC
+"ListUpdateMoneyVC:Title" = "編輯";
+"ListUpdateMoneyVC:Delete" = "刪除該筆";
+

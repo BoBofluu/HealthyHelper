@@ -1,0 +1,68 @@
+/*
+  Localizable.strings
+  Cherry
+
+  Created by 李旻峰 on 2022/10/2.
+  
+*/
+// MARK: - DefaultData
+"DefaultData:Pay1" = "Food";
+"DefaultData:Pay2" = "Dessert";
+"DefaultData:Pay3" = "Commodity";
+"DefaultData:Pay4" = "Traffic";
+"DefaultData:Pay5" = "Clothes";
+"DefaultData:Pay6" = "Social";
+"DefaultData:Pay7" = "Other";
+"DefaultData:Income1" = "Salary";
+"DefaultData:Income2" = "Rebate";
+"DefaultData:Income3" = "Other";
+
+// MARK: - Base
+"Base:Cancel" = "Cancel";
+"Base:Confirm" = "Confirm";
+"Base:Unit" = "$";
+
+// MARK: - TabBarVC
+"TabBarVC:Home" = "Home";
+"TabBarVC:Record" = "Record";
+"TabBarVC:List" = "List";
+"TabBarVC:Setting" = "Setting";
+
+// MARK: - HomeVC_Home
+"HomeVC:Title" = "Today Cost";
+"HomeVC:MonthlyCost" = "Monthly Cost";
+"HomeVC:MonthlyIncome" = "Monthly Income";
+
+// MARK: - MoneyVC_Home
+"MoneyVC:Cost" = "Cost";
+"MoneyVC:Income" = "Income";
+"MoneyVC:Money" = "Money";
+"MoneyVC:PlusType" = "Type＋";
+"MoneyVC:Type" = "Type";
+"MoneyVC:TypeChoose" = "Choose Type";
+"MoneyVC:Date" = "Date";
+"MoneyVC:DateChoose" = "Choose Date";
+"MoneyVC:Remark" = "Remark";
+"MoneyVC:RemarkChoose" = "Enter Remark";
+"MoneyVC:Save" = "Save";
+
+// MARK: - MoneyPopupVC
+"MoneyPopVC:Clear" = "AC";
+
+// MARK: - EditTypeVC
+"EditTypeVC:Title" = "Edit Type";
+"EditTypeVC:PlusType" = "Plus Type";
+"EditTypeVC:DeleteTitle" = "Tap to Delete";
+"EditTypeVC:SwipeTitle" = "Tap to Swipe";
+"EditTypeVC:Delete" = "Delete";
+"EditTypeVC:DeleteTitle" = "Sure to delete？";
+"EditTypeVC:DeleteMessage" = "delete cannot reverse";
+
+// MARK: - PlusTypeVC
+"PlusTypeVC:Title" = "Plus Type";
+"PlusTypeVC:Type" = "Type Name";
+"PlusTypeVC:Color" = "Type Color";
+
+// MARK: - ListUpdateMoneyVC
+"ListUpdateMoneyVC:Title" = "Update";
+"ListUpdateMoneyVC:Delete" = "Delete Record";

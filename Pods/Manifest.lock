@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (5.6.4)
+  - FSCalendar (2.8.4)
+  - IQKeyboardManagerSwift (6.5.10)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SnapKit (5.6.0)
+  - SwiftDate (7.0.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SnapKit
+  - SwiftDate
+  - SwifterSwift
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SnapKit
+    - SwiftDate
+    - SwifterSwift
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: e58fc6d5843e23fe3dd83888380975a454a92c79
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="hannotate-tc-bold.otf">
+            <string>HannotateTC-W7</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TypePickerVC" customModule="Cherry" customModuleProvider="target">
+            <connections>
+                <outlet property="m_bCancel" destination="M19-Pu-gEr" id="UxW-eQ-eis"/>
+                <outlet property="m_bConfirm" destination="idb-c9-8ge" id="tyQ-Qq-zhl"/>
+                <outlet property="m_lPlaceholder" destination="nnD-gb-01P" id="hbN-Qk-CuT"/>
+                <outlet property="m_pvPicker" destination="ReV-Uh-YDR" id="ytv-6z-5Pp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cax-kX-fDT">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhC-p5-tD3">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="441.33333333333331"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="close">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="doClickDismiss:" destination="-1" eventType="touchUpInside" id="inf-Yd-5eS"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TG5-Zb-yn3">
+                            <rect key="frame" x="0.0" y="441.33333333333331" width="393" height="45"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M19-Pu-gEr">
+                                    <rect key="frame" x="20" y="2.3333333333333712" width="115" height="40"/>
+                                    <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Base:Cancel">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="doClickCancel:" destination="-1" eventType="touchUpInside" id="rip-el-GOW"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnD-gb-01P">
+                                    <rect key="frame" x="196.66666666666666" y="22.333333333333314" width="0.0" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idb-c9-8ge">
+                                    <rect key="frame" x="247" y="2.3333333333333712" width="126" height="40"/>
+                                    <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Base:Confirm">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="doClickConfirm:" destination="-1" eventType="touchUpInside" id="Boz-Nb-ie5"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" name="PinkColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="8RT-IM-aki"/>
+                                <constraint firstItem="idb-c9-8ge" firstAttribute="centerY" secondItem="TG5-Zb-yn3" secondAttribute="centerY" id="A8O-Gj-9xy"/>
+                                <constraint firstItem="M19-Pu-gEr" firstAttribute="leading" secondItem="TG5-Zb-yn3" secondAttribute="leading" constant="20" id="Ekd-iM-hGE"/>
+                                <constraint firstItem="nnD-gb-01P" firstAttribute="centerY" secondItem="TG5-Zb-yn3" secondAttribute="centerY" id="QBa-IS-nW1"/>
+                                <constraint firstItem="nnD-gb-01P" firstAttribute="centerX" secondItem="TG5-Zb-yn3" secondAttribute="centerX" id="dWs-JA-yF7"/>
+                                <constraint firstItem="M19-Pu-gEr" firstAttribute="centerY" secondItem="TG5-Zb-yn3" secondAttribute="centerY" id="fAr-jt-qPS"/>
+                                <constraint firstItem="idb-c9-8ge" firstAttribute="trailing" secondItem="TG5-Zb-yn3" secondAttribute="trailing" constant="-20" id="vmw-eV-5vs"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nSu-qa-7eD" userLabel="Picker View">
+                            <rect key="frame" x="0.0" y="486.33333333333337" width="393" height="306.66666666666663"/>
+                            <subviews>
+                                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReV-Uh-YDR">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="306.66666666666669"/>
+                                    <color key="tintColor" name="PinkColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="306.67000000000002" id="azJ-zF-Uo7"/>
+                                    </constraints>
+                                </pickerView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="ReV-Uh-YDR" secondAttribute="trailing" id="8DJ-iV-fdp"/>
+                                <constraint firstAttribute="bottom" secondItem="ReV-Uh-YDR" secondAttribute="bottom" id="9A2-3c-JVR"/>
+                                <constraint firstItem="ReV-Uh-YDR" firstAttribute="top" secondItem="nSu-qa-7eD" secondAttribute="top" id="RFS-bZ-NIn"/>
+                                <constraint firstItem="ReV-Uh-YDR" firstAttribute="leading" secondItem="nSu-qa-7eD" secondAttribute="leading" id="eg6-rn-Ncv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Cax-kX-fDT" secondAttribute="trailing" id="BPW-rX-xeJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="leading" secondItem="Cax-kX-fDT" secondAttribute="leading" id="Fqh-zg-C9U"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="Cax-kX-fDT" secondAttribute="top" id="ieZ-h7-gAg"/>
+                <constraint firstItem="Cax-kX-fDT" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="qjy-Z3-NjO"/>
+            </constraints>
+            <point key="canvasLocation" x="4" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="PinkColor">
+            <color red="1" green="0.65100002288818359" blue="0.65100002288818359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

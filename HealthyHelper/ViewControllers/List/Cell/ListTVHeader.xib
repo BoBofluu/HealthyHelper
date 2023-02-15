@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="hannotate-tc-bold.otf">
+            <string>HannotateTC-W7</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ListTVHeader" customModule="Cherry" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="154"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2A-aO-2PF">
+                    <rect key="frame" x="0.0" y="59" width="393" height="95"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="收入：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efh-mr-szX">
+                            <rect key="frame" x="20" y="0.0" width="60" height="28"/>
+                            <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                            <color key="textColor" name="PinkColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="G9g-3F-zPR">
+                            <rect key="frame" x="80" y="0.0" width="293" height="28"/>
+                            <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                            <color key="textColor" systemColor="systemGreenColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="支出：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wzz-aO-jE4">
+                            <rect key="frame" x="20" y="28" width="60" height="28"/>
+                            <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                            <color key="textColor" name="PinkColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="s49-ac-n68">
+                            <rect key="frame" x="80" y="28" width="293" height="28"/>
+                            <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                            <color key="textColor" systemColor="systemRedColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="合計：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SV4-tx-Zlx">
+                            <rect key="frame" x="20" y="56" width="60" height="28"/>
+                            <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                            <color key="textColor" name="PinkColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="QI6-uX-Ipc">
+                            <rect key="frame" x="80" y="56" width="293" height="28"/>
+                            <fontDescription key="fontDescription" name="HannotateTC-W7" family="Hannotate TC" pointSize="20"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="Localize" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="QI6-uX-Ipc" firstAttribute="bottom" secondItem="SV4-tx-Zlx" secondAttribute="bottom" id="2sL-Zy-BDk"/>
+                        <constraint firstItem="G9g-3F-zPR" firstAttribute="trailing" secondItem="F2A-aO-2PF" secondAttribute="trailing" constant="-20" id="3Sq-Ux-Bkn"/>
+                        <constraint firstItem="efh-mr-szX" firstAttribute="top" secondItem="F2A-aO-2PF" secondAttribute="top" id="5rr-uN-mNf"/>
+                        <constraint firstItem="Wzz-aO-jE4" firstAttribute="leading" secondItem="F2A-aO-2PF" secondAttribute="leading" constant="20" id="AcU-yC-rXH"/>
+                        <constraint firstItem="QI6-uX-Ipc" firstAttribute="trailing" secondItem="F2A-aO-2PF" secondAttribute="trailing" constant="-20" id="Avr-M8-rLl"/>
+                        <constraint firstItem="s49-ac-n68" firstAttribute="top" secondItem="Wzz-aO-jE4" secondAttribute="top" id="FGC-K6-Bji"/>
+                        <constraint firstItem="G9g-3F-zPR" firstAttribute="top" secondItem="efh-mr-szX" secondAttribute="top" id="OWa-u8-6OO"/>
+                        <constraint firstItem="Wzz-aO-jE4" firstAttribute="top" secondItem="efh-mr-szX" secondAttribute="bottom" id="Tbg-QP-dzh"/>
+                        <constraint firstItem="SV4-tx-Zlx" firstAttribute="top" secondItem="Wzz-aO-jE4" secondAttribute="bottom" id="UXg-Yq-XUr"/>
+                        <constraint firstItem="s49-ac-n68" firstAttribute="trailing" secondItem="F2A-aO-2PF" secondAttribute="trailing" constant="-20" id="b6E-Uf-0L4"/>
+                        <constraint firstItem="G9g-3F-zPR" firstAttribute="bottom" secondItem="efh-mr-szX" secondAttribute="bottom" id="fQV-pj-NN3"/>
+                        <constraint firstItem="s49-ac-n68" firstAttribute="bottom" secondItem="Wzz-aO-jE4" secondAttribute="bottom" id="khR-Lz-1CT"/>
+                        <constraint firstItem="QI6-uX-Ipc" firstAttribute="leading" secondItem="SV4-tx-Zlx" secondAttribute="trailing" id="l4W-Gy-m7Y"/>
+                        <constraint firstItem="efh-mr-szX" firstAttribute="leading" secondItem="F2A-aO-2PF" secondAttribute="leading" constant="20" id="mes-CO-jhu"/>
+                        <constraint firstItem="s49-ac-n68" firstAttribute="leading" secondItem="Wzz-aO-jE4" secondAttribute="trailing" id="pvG-Zl-pLk"/>
+                        <constraint firstItem="SV4-tx-Zlx" firstAttribute="leading" secondItem="Wzz-aO-jE4" secondAttribute="leading" id="rWS-t1-TqI"/>
+                        <constraint firstItem="G9g-3F-zPR" firstAttribute="leading" secondItem="efh-mr-szX" secondAttribute="trailing" id="sN6-tS-tGv"/>
+                        <constraint firstItem="QI6-uX-Ipc" firstAttribute="top" secondItem="SV4-tx-Zlx" secondAttribute="top" id="tZ2-wp-Xwg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="F2A-aO-2PF" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="731-1F-1NR"/>
+                <constraint firstItem="F2A-aO-2PF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Dvy-3X-Jac"/>
+                <constraint firstItem="F2A-aO-2PF" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Mcb-W3-pgz"/>
+                <constraint firstItem="F2A-aO-2PF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="YSo-2d-tOn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lIncome" destination="G9g-3F-zPR" id="4UL-1e-103"/>
+                <outlet property="lPay" destination="s49-ac-n68" id="RxO-5P-l9W"/>
+                <outlet property="lTotal" destination="QI6-uX-Ipc" id="LWL-Aa-yTN"/>
+            </connections>
+            <point key="canvasLocation" x="23.664122137404579" y="-257.04225352112678"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="PinkColor">
+            <color red="1" green="0.65100002288818359" blue="0.65100002288818359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
